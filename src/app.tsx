@@ -1,5 +1,6 @@
 import Taro, { Component, Config } from "@tarojs/taro";
 // import counterStore from "./store/counter";
+// 引入顺序改变
 import { store } from "./store/index";
 import { Provider } from "@tarojs/mobx";
 import Index from "./pages/index";
